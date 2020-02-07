@@ -1,0 +1,40 @@
+body {
+	margin: 0 auto;
+	padding: 0px;
+	background-image:url(assets/img/m.jpg);
+	color: white;
+	border-top-style: 10px solid white;
+	
+}
+main{
+	
+	width: 100%;
+	margin: 10px 10px 10px 250px;
+}
+
+
+.container {
+	display: flex;
+	text-align: center;
+	padding: 20px 30px;
+	font-size: 20px;
+	display: grid;
+	grid-template-columns: 300px 1fr 400px;
+	grid-template-rows: 400px 300px;
+    justify-content: space-evenly;
+
+}
+.container >div {
+	text-align: center;
+	padding: 10px;
+	grid-row-gap: 2px;
+	grid-column-gap: 2px;
+	
+}
+
+img,video,iframe,audio {
+	border: 1px solid white;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px #fff;
+
+}
